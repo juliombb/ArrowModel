@@ -26,14 +26,14 @@ dependencies {
 
     implementation "io.arrow-kt:arrow-core:$arrow"
     implementation "io.arrow-kt:arrow-syntax:$arrow"
+    implementation "io.arrow-kt:arrow-optics:$arrow"
     implementation "io.arrow-kt:arrow-typeclasses:$arrow"
     implementation "io.arrow-kt:arrow-data:$arrow"
     implementation "io.arrow-kt:arrow-instances-core:$arrow"
     implementation "io.arrow-kt:arrow-instances-data:$arrow"
     implementation "io.arrow-kt:arrow-effects:$arrow"
     kapt "io.arrow-kt:arrow-annotations-processor:$arrow"
-
-    testImplementation "io.arrow-kt:arrow-test:$arrow"
+    kapt 'io.arrow-kt:arrow-meta:$arrow_version' //optional
 }
 
 compileKotlin {
