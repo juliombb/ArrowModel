@@ -28,6 +28,7 @@ dependencies {
     implementation "io.arrow-kt:arrow-syntax:$arrow"
     implementation "io.arrow-kt:arrow-optics:$arrow"
     implementation "io.arrow-kt:arrow-typeclasses:$arrow"
+    implementation "io.arrow-kt:arrow-effects-kotlinx-coroutines:$arrow"
     implementation "io.arrow-kt:arrow-data:$arrow"
     implementation "io.arrow-kt:arrow-instances-core:$arrow"
     implementation "io.arrow-kt:arrow-instances-data:$arrow"

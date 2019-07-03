@@ -1,5 +1,6 @@
 import arrow.core.andThen
 import arrow.core.curry
+import logic.concreteMerge
 
 fun main(args : Array<String>) {
     val plus2 = { a: Int -> a + 2 }
@@ -15,7 +16,7 @@ fun main(args : Array<String>) {
     val plus1 = curriedSum(1)
     println(plus1(10))
     println(curriedSum(10)(11))
-//    concreteMerge()
+    concreteMerge()
 }
 
 fun sum(x: Int, y: Int) = x + y
